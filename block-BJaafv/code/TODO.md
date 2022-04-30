@@ -12,6 +12,8 @@ function sum(a, b) {
 }
 ```
 
+return value print
+
 2. If we store the returned value of both functions above in variable `first` and `second` what will be the value of `first` and `second`.
 
 3. What will be the output when you call above `sum` function (first) with three parameter like `sum(12, 24, 35)`. Explain why?
@@ -23,10 +25,10 @@ function sum(a, b) {
 6. What will be the output of the function below and why?
 
 ```js
-let userName = 'John';
+let userName = "John";
 
 function showMessage() {
-  let message = 'Hello, ' + userName;
+  let message = "Hello, " + userName;
   return message;
 }
 
@@ -36,10 +38,10 @@ showMessage();
 7. What will be the output for `Output1` `Output2` and `Output3` in the code below.
 
 ```js
-let userName = 'John';
+let userName = "John";
 
 function showMessage() {
-  let message = 'Hello, ' + userName;
+  let message = "Hello, " + userName;
   return message;
 }
 
